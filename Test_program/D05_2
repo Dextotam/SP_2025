@@ -1,0 +1,37 @@
+PROGRAM PG;
+
+BEGIN VAR INT_2 AA, BB, CC, MX;
+
+INPUT(AA);
+INPUT(BB);
+INPUT(CC);
+
+  IF AA GT BB && AA GT CC {
+    AA -> MX;
+  } ELSE IF BB GT AA && BB GT CC {
+    BB -> MX;
+  } ELSE {
+    CC -> MX;
+  }
+  
+  OUTPUT ( MX );
+
+  IF (AA = BB ) && ( AA = CC ) && ( BB = CC ) {
+    OUTPUT ( 1 )
+  } ELSE {
+    OUTPUT ( 0 )
+  }
+    
+  IF ( AA LT 0 ) || ( BB LT 0 ) || ( CC LT 0 ) {
+    OUTPUT ( -1 )
+  } ELSE {
+    OUTPUT ( 0 )
+  }
+
+  IF !! ( AA LT ( BB + CC ) ) {
+    OUTPUT ( 10 )
+  } ELSE {
+    OUTPUT ( 0 )
+  }
+ 
+END
