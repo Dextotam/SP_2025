@@ -1,0 +1,19 @@
+﻿  Source2.cpp
+D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(412,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(412,24):
+      consider using '%lld' in the format string
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(412,24):
+      consider using '%Id' in the format string
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(412,24):
+      consider using '%I64d' in the format string
+  
+D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(439,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(439,20):
+      consider using '%lld' in the format string
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(439,20):
+      consider using '%Id' in the format string
+      D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(439,20):
+      consider using '%I64d' in the format string
+  
+D:\SP_D\ComputeByStack\ComputeByStack\Source2.cpp(494,8): warning C4129: ')': unrecognized character escape sequence
+  ComputeByStack.vcxproj -> D:\SP_D\ComputeByStack\x64\Debug\ComputeByStack.exe
